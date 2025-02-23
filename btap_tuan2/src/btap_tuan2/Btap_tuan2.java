@@ -21,6 +21,15 @@ public class Btap_tuan2 {
         
 
     }
+    public  static void tinhchia(){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("nhap gia tri a: ");
+        int a = sc.nextInt();
+        System.out.println("nhap gia tri b: ");
+        int b = sc.nextInt();
+        System.out.println("tong = "+(a/b));
+
+    }
     public  static void tinhtong(){
         Scanner sc = new Scanner(System.in);
         System.out.println("nhap gia tri a: ");
