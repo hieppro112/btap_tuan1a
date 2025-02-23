@@ -17,8 +17,7 @@ public class Btap_tuan2 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        tinhtong();
-        tinhTich();
+       tinhThuong();
     }
     public  static void tinhtong(){
         Scanner sc = new Scanner(System.in);
@@ -48,6 +47,17 @@ public class Btap_tuan2 {
         double b = sc.nextDouble();
         double ketqua = a-b;
         System.out.println("Hieu = "+ketqua);
+    }
+    public static void tinhThuong(){
+        Scanner sc = new Scanner(System.in);
+        System.err.println("Nhap gia tri a : ");
+        double a = sc.nextDouble();
+        System.err.println("Nhap gia tri b : ");
+        double b = sc.nextDouble();
+        double ketQua = a/b;
+        System.out.println("Ket qua = "+ketQua);
+        
+
     }
     
 }
