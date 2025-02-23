@@ -40,5 +40,14 @@ public class Btap_tuan2 {
         System.out.println("Tich = "+ketQua);
                 
     }
+    public static void tinhHieu(){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("nhap gia tri a : ");
+        double a = sc.nextDouble();
+        System.out.println("nhap gia tr b : ");
+        double b = sc.nextDouble();
+        double ketqua = a-b;
+        System.out.println("Hieu = "+ketqua);
+    }
     
 }
